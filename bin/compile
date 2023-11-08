@@ -11,6 +11,6 @@ wget https://reprally.nyc3.digitaloceanspaces.com/buildpack/mysql.tar.gz
 # make a directory to untar (like unzip) the binary
 mkdir -p $BUILD_DIR/.heroku/mysql
 # untar the binary to a directory inside /app/.heroku
-tar -C $BUILD_DIR/.heroku/mysql -xvf mysqldump.tar.gz
+tar -C $BUILD_DIR/.heroku/mysql -xvf mysql.tar.gz
 # remove the tar file
-rm -f mysqldump.tar.gz
+rm -f mysql.tar.gz
