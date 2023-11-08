@@ -11,6 +11,6 @@ wget https://reprally.nyc3.digitaloceanspaces.com/buildpack/mysql-8.0.35-linux-g
 # make a directory to untar (like unzip) the binary
 mkdir -p $BUILD_DIR/.heroku/mysql
 # untar the binary to a directory inside /app/.heroku
-tar -C $BUILD_DIR/.heroku/mysql -xvf mysql-8.0.35-linux-glibc2.17-aarch64-minimal.tar.xz
+tar -C $BUILD_DIR/.heroku/mysql -xvf mysql-8.0.35-linux-glibc2.17-x86_64-minimal.tar.xz
 # remove the tar file
-rm -f mysql-8.0.35-linux-glibc2.17-aarch64-minimal.tar.xz
+rm -f mysql-8.0.35-linux-glibc2.17-x86_64-minimal.tar.xz
